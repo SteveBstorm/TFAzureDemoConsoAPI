@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+  font-family: sans-serif;
+}
+
+body {
+  background-color: black;
+  color : white;
+}
+@media screen and (max-width: 768px) {
+  body {
+    background-color: chartreuse;
+    color : violet;
+
+  }
+}
+
+
